@@ -35,11 +35,11 @@ This project involves implementing the CPU pipeline simulator with functionaliti
 ## Simulator Parameters
 The simulator accepts the following command-line parameters:
 
-- pipewidth: Set pipeline width (default: 1).
-- loadlatency: Set load instruction latency (default: 4 cycles).
-- schedpolicy: Select scheduling policy:
-0: In-order.
-1: Out-of-order (default).
+- -pipewidth: Set pipeline width (default: 1).
+- -loadlatency: Set load instruction latency (default: 4 cycles).
+- -schedpolicy: Select scheduling policy:
+  - 0: In-order.
+  - 1: Out-of-order (default).
 - -h: Display usage information
 
 ```
