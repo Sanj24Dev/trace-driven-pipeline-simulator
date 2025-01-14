@@ -47,6 +47,6 @@ The simulator accepts the following command-line parameters:
 ```
 
 ### Simulator Statistics
-stat_retired_inst: Number of committed instructions.
-stat_num_cycle: Number of simulated CPU cycles.
-CPI (Cycles Per Instruction): Calculated as stat_num_cycle / stat_retired_inst.
+- stat_retired_inst: Number of committed instructions.
+- stat_num_cycle: Number of simulated CPU cycles.
+- CPI (Cycles Per Instruction): Calculated as stat_num_cycle / stat_retired_inst.
