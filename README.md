@@ -40,7 +40,7 @@ The simulator accepts the following command-line parameters:
 - schedpolicy: Select scheduling policy:
 0: In-order.
 1: Out-of-order (default).
--h: Display usage information
+- -h: Display usage information
 
 ```
 ./sim -pipewidth 2 -schedpolicy 1 -loadlatency 4 ../traces/sml.ptr.gz
